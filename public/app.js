@@ -1,7 +1,7 @@
 'use strict';
 
 
-angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap'])
+angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap', 'sneakerdeckServices'])
  .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
  	/* each string in config array
  	is the name of the service to inject

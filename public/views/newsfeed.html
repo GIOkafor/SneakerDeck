@@ -1,19 +1,4 @@
-<!--
-    <div class="menu-items" role="navigation">
-				
-				<div class="header-icons">
-					<span class="kof"><a href="#"> <img src="images/kicksOnFire.png" width="21px">KickOnFire</a></span>
-					<span class="merchant"><a href="#"><img src="images/merchant.png" alt="" width="20px">Merchant</a></span>
-					<span class="post"><a href="#"><img src="images/post.png" alt="" width="20px">Post</a></span>
-					<span class="notifications"><a href="#"><img src="images/notifications.png" alt="" width="20px">Notifications</a></span>
-					<span class="you"><a href="#"><img src="images/you.png" alt="" width="20px">You</a></span>
-					<span class="search"><input type="text" placeholder="search"/></span>
-				</div>
-					
-				
-				
-	</div>
--->
+
     <div class="container meat">
 		<div class="shoes" ng-repeat="shoe in shoes | orderBy:orderProp">
 			<div class="col-xs-6 col-md-4">
@@ -29,7 +14,7 @@
 	<div class="footer">
 		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 			<div class="footer-items">
-				<button href="#" type="button" class="btn btn-default btn-lg" onClick='changeImage(feed[1][0]); changeImage1(feed[1][1])'>
+				<button href="#" type="button" class="btn btn-default btn-lg">
 					<span class="glyphicon glyphicon-tower"></span>
 				</button>
 			
@@ -58,24 +43,4 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-	
-	
-	<script type="text/javascript">
-		
-		var feed = [
-			["images/nike-lebron-x-mens.png", "images/drose1.png","images/drose2.png","images/Floral Rosche Runs.png"],
-			["images/In da water.jpg","images/Midnight 5s.jpg","images/Diamond baby blue.jpg","images/Asics styll.jpg"]
-		];
-		  
-		
-		function changeImage(a){
-			document.getElementById("img").src = a;
-			console.log("Test");
-		}
-		
-		function changeImage1(a){
-			document.getElementById("img1").src = a;
-			console.log("Test");
-		}
-	</script>
 
